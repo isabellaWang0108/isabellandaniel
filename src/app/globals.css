@@ -16,7 +16,7 @@
   }
 }
 
-html{
+html {
   background-color: #0D0D0D;
   color: white;
 }
@@ -28,9 +28,10 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-.bg-black{
+.bg-black {
   background: #0D0D0D;
 }
+
 .grain {
   transform: translateZ(0);
 }
@@ -102,17 +103,18 @@ body {
   }
 }
 
-.place-items-center-browser-bug{
+.place-items-center-browser-bug {
   margin-top: 25vh;
 }
 
-p, .button{
+p,
+.button {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-code{
+code {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -141,57 +143,61 @@ code{
   line-height: 2rem;
 }
 
-.button{
+.button {
   font-weight: 600;
-  position:relative;
+  position: relative;
   padding: 0.5rem 0.75rem;
-  width:100%;
+  width: 100%;
   background-color: #927A46;
-  color:black;
+  color: black;
 }
 
-.button:hover{
+.button:hover {
   background: linear-gradient(90deg, #926f34, transparent) #dfbd69;
   transition: background-color 1s;
   cursor: pointer;
 }
 
-.secondary{
+.secondary {
   background: transparent;
-  color:#a78241;;
+  color: #a78241;
+  ;
   border: .125rem solid #927A46;
 }
 
-.secondary:hover{
+.secondary:hover {
   background: linear-gradient(90deg, transparent, transparent) black;
 }
-.no-download{
+
+.no-download {
   pointer-events: none;
 }
 
-.nav_link, .nav_link_active{
-  padding:.5rem 1.5rem;
+.nav_link,
+.nav_link_active {
+  padding: .5rem 1.5rem;
 }
 
-.nav_link:hover{
+.nav_link:hover {
   background: rgba(49, 113, 104, 0.5);
 }
 
-.nav_link_active{
+.nav_link_active {
   background: rgba(49, 113, 104, .3);
   border-bottom: 1px solid;
   cursor: default;
 }
-.desktop_only{
-  display:default;
+
+.desktop_only {
+  display: default;
 }
 
-.cursor{
+.cursor {
   content: "";
   width: 5px;
   height: 20px;
   margin-bottom: -4px;
-  margin-left:4px;
+  margin-left: 4px;
   background: white;
   display: inline-block;
   animation: cursor-blink 1.5s steps(2) infinite;
@@ -201,26 +207,36 @@ code{
   0% {
     opacity: 0;
   }
-  
+
 }
 
-.golden_shadow{
+.golden_shadow {
   box-shadow: 0px 0px 54px 10px rgba(146, 122, 70, .85);
 
 }
 
+.mobile_only {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
-  .button{
-    background: linear-gradient(90deg, #926f34, #dfbd69) ;
+  .button {
+    background: linear-gradient(90deg, #926f34, #dfbd69);
   }
 
-  .secondary{
+  .secondary {
     background: rgba(0, 0, 0, 0.3);
   }
-  .desktop_only{
-    display:none;
+
+  .desktop_only {
+    display: none;
   }
-  .golden_shadow{
+
+  .mobile_only {
+    display:initial;
+  }
+
+  .golden_shadow {
     box-shadow: none;
   }
 }
