@@ -11,15 +11,15 @@ export default function Home() {
             loading="lazy"
             alt="hero image"
             objectFit="cover"
-            className="brightness-50 md:brightness-100 no-download"
+            className="brightness-90 md:brightness-100 no-download"
             fill={true} />
         </div>
       </div>
       <div className="md:w-3/4 w-full h-full fixed z-50 grid justify-items-center">
         <div
-          className="flex-col absolute w-200 my-auto text-white place-items-center-browser-bug">
+          className="flex-col absolute w-200 my-auto text-white landing_title_block">
           <h1 className="display mb-8">Isabella
-            <br /> Daniel_</h1>
+            <br /> Daniel <span className="cursor_horizontal"/> </h1>
 
 
           <Link href="/about">
@@ -37,6 +37,6 @@ export default function Home() {
         </div>
       </div>
 
-      </>
+    </>
   )
 }
