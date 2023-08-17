@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Photo = () => {
   return (
     <div className="bg-black w-full grid justify-items-center">
-      <div className="py-40 px-5 w-full max-w-screen-md grid gap-4">
+      <div className="py-20 md:py-40 px-5 w-full max-w-screen-md grid gap-4">
         <div className="relative w-full h-60 md:h-[32rem] aspect-auto z-40 z-10">
           <Image src={"/images/img_2.png"}
             loading="lazy"

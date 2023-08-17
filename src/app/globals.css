@@ -188,6 +188,23 @@ code {
   cursor: default;
 }
 
+
+.nav_anime {
+  animation-name: nav_anime;
+  animation-duration: .5s;
+}
+
+@keyframes nav_anime {
+  from {
+    transform: translateY(-35px) scaleY(.7);
+  }
+
+  to {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+
 .desktop_only {
   display: default;
 }
@@ -233,7 +250,7 @@ code {
   }
 
   .mobile_only {
-    display:initial;
+    display: inherit;
   }
 
   .golden_shadow {

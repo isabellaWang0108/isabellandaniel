@@ -4,20 +4,20 @@ import Navbar from '../../Components/Navbar.js'
 const About = () => {
   const today = new Date()
   const date = today.getDate();
-  const month = today.getMonth();
+  const month = today.getMonth() + 1;
   const year = today.getFullYear();
   return (
     <>
-      <div className="bg-black w-full grid justify-items-center">
-        <div className="relative w-full md:w-1/3 md:ml-20 justify-self-center h-80 aspect-auto z-40 z-10 mobile_only">
+      <div className="bg-black w-full grid justify-items-center z-10 mt-10 md:mt-0">
+        <div className="relative w-full md:w-1/3 md:ml-20 justify-self-center h-80 aspect-auto mobile_only">
           <Image src={"/images/birds.svg"}
             loading="lazy"
             alt="hero image"
             objectFit="cover"
-            className="no-download z-10"
+            className="no-download"
             fill={true} />
         </div>
-        <div className="bg-black p-4 md:p-10 md:mt-20 max-w-screen-lg golden_shadow text-white z-20">
+        <div className="bg-black p-6 md:p-10 md:my-40 max-w-screen-lg golden_shadow text-white">
           <h2 className="title mb-8">Our journey</h2>
           <div className="flex mb-4">
             <code>[journey@isabellandaniel ~] $ dmesg | grep “relationship milestones”</code>
