@@ -7,9 +7,8 @@ const About = () => {
   const month = today.getMonth() + 1;
   const year = today.getFullYear();
   return (
-    <>
-      <div className="bg-black w-full grid justify-items-center z-10 mt-10 md:mt-0">
-        <div className="relative w-full justify-self-center h-80 aspect-auto mobile_only">
+      <div className="bg-black w-full grid justify-items-center z-10">
+        <div className="relative w-full justify-self-center h-80 aspect-auto mobile_only mt-10 md:mt-0">
           <Image src={"/images/birds.svg"}
             loading="lazy"
             alt="hero image"
@@ -112,7 +111,6 @@ const About = () => {
         </div>
 
       </div>
-    </>
   )
 }
 
