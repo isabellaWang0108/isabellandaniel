@@ -4,9 +4,9 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div className="flex fixed top-0 left-0 w-screen h-screen z-20 grain">
-        <div className="bg-black relative md:w-full w-0 h-screen z-30 "> </div>
-        <div className="relative md:w-4/12 w-full h-screen aspect-auto z-40 ">
+      <div className="flex fixed top-0 left-0 w-screen h-screen z-50 grain">
+        <div className="bg-black relative md:w-full w-0 h-screen"> </div>
+        <div className="relative md:w-4/12 w-full h-screen aspect-auto">
           <Image src={"/images/hero.jpg"}
             loading="lazy"
             alt="hero image"

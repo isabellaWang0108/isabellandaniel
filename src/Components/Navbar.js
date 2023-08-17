@@ -16,7 +16,7 @@ export default function Navigation() {
   const pathname = usePathname()
   const [navActive, setNavActive] = useState(null);
   return (
-    <div className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 z-50  py-2 px-6 flex justify-between`}>
+    <div className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 z-40 py-2 px-6 flex justify-between`}>
       <a href="/">
         <Image src={"/images/logo.svg"}
           loading="lazy"
@@ -56,7 +56,7 @@ export default function Navigation() {
         })}
       </div>
 
-      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 w-full bg-teal-950 py-16 px-20 mt-8 ">
+      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 w-full bg-teal-950 py-16 px-20 mt-8">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (

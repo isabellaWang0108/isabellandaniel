@@ -9,11 +9,10 @@ const About = () => {
   return (
     <>
       <div className="bg-black w-full grid justify-items-center z-10 mt-10 md:mt-0">
-        <div className="relative w-full md:w-1/3 md:ml-20 justify-self-center h-80 aspect-auto mobile_only">
+        <div className="relative w-full justify-self-center h-80 aspect-auto mobile_only">
           <Image src={"/images/birds.svg"}
             loading="lazy"
             alt="hero image"
-            objectFit="cover"
             className="no-download"
             fill={true} />
         </div>
