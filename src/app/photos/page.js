@@ -41,7 +41,7 @@ const Photo = () => {
               fill={true} />
           </div>
         </div>
-        <div className="relative w-full h-60 md:h-[32rem] aspect-auto z-40 z-10">
+        <div className="relative w-full h-60 md:h-[32rem] aspect-auto">
           <Image src={"/images/img_6.png"}
             loading="lazy"
             alt="hero image"
@@ -67,7 +67,7 @@ const Photo = () => {
               fill={true} />
           </div>
         </div>
-        <div className="relative w-full h-60 md:h-[32rem] aspect-auto z-40 z-10">
+        <div className="relative w-full h-60 md:h-[32rem] aspect-auto">
           <Image src={"/images/img_1.png"}
             loading="lazy"
             alt="hero image"
