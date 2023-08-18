@@ -102,8 +102,13 @@ const About = () => {
           </div>
           <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
             <code className="desktop_only">16</code>
+            <code className="col-span-2"> 2023-08-15</code>
+            <code className="col-span-9">This website's MVP is deployed. </code>
+          </div>
+          <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
+            <code className="desktop_only">17</code>
             <code className="col-span-2">{year}-{month < 10 ? '0' + month : month}-{date < 10 ? '0' + date : date} </code>
-            <code className="col-span-9"> Wala! Here we are.</code>
+            <code className="col-span-9"> Voila!</code>
           </div>
           <div className="flex mb-4">
             <code>[journey@isabellandaniel ~] $ You can’t really type here_<div className="cursor"></div></code>

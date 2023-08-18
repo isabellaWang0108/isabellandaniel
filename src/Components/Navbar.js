@@ -56,7 +56,7 @@ export default function Navigation() {
         })}
       </div>
 
-      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full bg-teal-950 p-20 mt-8">
+      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full bg-teal-950 p-20 mt-10">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
