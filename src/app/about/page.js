@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
-import Navbar from '../../Components/Navbar.js'
+
 const About = () => {
   const today = new Date()
   const date = today.getDate();
@@ -103,7 +102,7 @@ const About = () => {
           <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
             <code className="desktop_only">16</code>
             <code className="col-span-2"> 2023-08-15</code>
-            <code className="col-span-9">This website's MVP is deployed. </code>
+            <code className="col-span-9">The MVP of this website is deployed. </code>
           </div>
           <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
             <code className="desktop_only">17</code>
