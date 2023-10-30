@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
-const About = () => {
-  const today = new Date()
-  const date = today.getDate();
-  const month = today.getMonth() + 1;
-  const year = today.getFullYear();
+var About = () => {
+  var today = new Date()
+  var date = today.getDate();
+  var month = today.getMonth() + 1;
+  var year = today.getFullYear();
   return (
       <div className="bg-black w-full grid justify-items-center z-10">
         <div className="relative w-full justify-self-center h-80 aspect-auto mobile_only mt-10 md:mt-0">
