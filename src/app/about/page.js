@@ -106,6 +106,11 @@ var About = () => {
           </div>
           <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
             <code className="desktop_only">17</code>
+            <code className="col-span-2"> 2023-10-26</code>
+            <code className="col-span-9">Isabella n Daniel got legally married. </code>
+          </div>
+          <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
+            <code className="desktop_only">17</code>
             <code className="col-span-2">{year}-{month < 10 ? '0' + month : month}-{date < 10 ? '0' + date : date} </code>
             <code className="col-span-9"> Voila!</code>
           </div>
