@@ -1,10 +1,17 @@
 import Image from 'next/image'
+import React from 'react';
 
-var About = () => {
-  var today = new Date()
-  var date = today.getDate();
-  var month = today.getMonth() + 1;
-  var year = today.getFullYear();
+const About = () => {
+  // Create a new Date object
+  const currentDate = new Date();
+
+  // Format the date as a string (e.g., "December 13, 2023")
+  const dateString = currentDate.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+
   return (
       <div className="bg-black w-full grid justify-items-center z-10">
         <div className="relative w-full justify-self-center h-80 aspect-auto mobile_only mt-10 md:mt-0">
@@ -107,12 +114,13 @@ var About = () => {
           <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
             <code className="desktop_only">17</code>
             <code className="col-span-2"> 2023-10-26</code>
-            <code className="col-span-9">Isabella n Daniel got legally married. </code>
+            <code className="col-span-9">Isabella n daniel got legally married. </code>
           </div>
+          
           <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
-            <code className="desktop_only">17</code>
-            <code className="col-span-2">{year}-{month < 10 ? '0' + month : month}-{date < 10 ? '0' + date : date} </code>
-            <code className="col-span-9"> Voila!</code>
+            <code className="desktop_only">18</code>
+            <code className="col-span-2"> {dateString.split('/').reverse().join('-')} </code>
+            <code className="col-span-9"> Voila! Here we go.</code>
           </div>
           <div className="flex mb-4">
             <code>[journey@isabellandaniel ~] $ You can’t really type here_<div className="cursor"></div></code>
