@@ -27,7 +27,7 @@ body {
 }
 
 .bg-black {
-  background: #0D0D0D;
+  background: #141414;
 }
 
 .bg-teal-950 {
@@ -160,13 +160,14 @@ code {
   position: relative;
   padding: 0.5rem 0.75rem;
   width: 100%;
-  background-color: #927A46;
+  background: linear-gradient(105deg, #dfbd69, transparent) #26cbb3;
   color: black;
 }
 
 .button:hover {
-  background: linear-gradient(90deg, #926f34, transparent) #dfbd69;
+  background: linear-gradient(90deg, #dfbd69, transparent) #926f34;
   transition: background-color 1s;
+  color: black;
   cursor: pointer;
 }
 
@@ -191,11 +192,11 @@ code {
 }
 
 .nav_link:hover {
-  background: rgba(49, 113, 104, 0.5);
+  background: black;
 }
 
 .nav_link_active {
-  background: rgba(49, 113, 104, .3);
+  background:black;
   border-bottom: 1px solid;
   cursor: default;
 }

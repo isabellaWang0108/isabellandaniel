@@ -56,12 +56,12 @@ export default function Navigation() {
         })}
       </div>
 
-      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full bg-teal-950 p-20 mt-10">
+      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-10">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
             <Link
-              className={`${isActive ? "nav_link_active bg-teal-950" : "nav_link"} text-center`}
+              className={`${isActive ? "nav_link_active" : "nav_link"} text-center`}
               href={link.href}
               key={link.name}
               onClick={() => setNavActive(!navActive)}
