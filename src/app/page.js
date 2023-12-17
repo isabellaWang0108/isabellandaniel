@@ -18,21 +18,18 @@ export default function Home() {
       <div className="md:w-3/4 w-full h-full fixed z-50 grid justify-items-center">
         <div
           className="flex-col absolute w-200 my-auto text-white landing_title_block">
-          <h1 className="display mb-8">Isabella.W
-            <br /> Daniel.O <span className="cursor_horizontal"/> </h1>
+          <h1 className="display mb-8">
+            Daniel.Ogorchock
+            <br />
+            & Isabella.Wang's
+            <br />
+            Wedding Invite <span className="cursor_horizontal" /> </h1>
 
-
-          <Link href="/about">
+          <Link href="/home">
             <div className="w-full text-center button mb-8">
-              About Us
+              Open your invite
             </div>
           </Link>
-
-          {/*  <Link href="/about">
-             <div className="w-full text-center button secondary mb-8">
-               RSVP
-             </div> 
-          </Link>*/}
 
         </div>
       </div>
