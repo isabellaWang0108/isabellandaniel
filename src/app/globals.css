@@ -18,6 +18,7 @@
 
 html {
   background: #0D0D0D;
+  background-color: #0D0D0D;
   color: white;
 }
 
@@ -125,8 +126,11 @@ body {
 p,
 .button {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.75rem;
+}
+.button{
+  font-size: 1.25rem;
 }
 
 code {
@@ -176,15 +180,21 @@ code {
 }
 
 .secondary {
-  background: transparent;
-  color: #a78241;
-  ;
-  border: .125rem solid #927A46;
+  font-weight: 500;
+  background:transparent;
+  color:#b0c8ae;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #dfbd69, #26cbb3) 1;
 }
 
 .secondary:hover {
-  background: linear-gradient(90deg, transparent, transparent) black;
+  background: transparent;
+  transition: border-image 1s;
+  color:#b0c8ae;
+  border-image: linear-gradient(to right, #dfbd69, #926f34) 1
 }
+
 
 .no-download {
   pointer-events: none;
@@ -300,7 +310,7 @@ code {
 
   .display.exception {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     line-height: 2.5rem;
   }
   

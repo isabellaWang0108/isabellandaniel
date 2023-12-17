@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react';
 import Link from 'next/link'
 
-const About = () => {
+const Home = () => {
   // Create a new Date object
   const currentDate = new Date();
 
@@ -10,7 +10,9 @@ const About = () => {
   const dateString = currentDate.toLocaleDateString('en-US', {
     year: 'numeric',
     month: '2-digit',
-    day: '2-digit'
+    day: '2-digit',
+    timeZone: 'America/New_York',
+    formatMatcher: 'basic'
   });
 
   return (
@@ -18,7 +20,7 @@ const About = () => {
       <div className="md:w-3/4 w-full z-10 grid mt-28 p-6">
         <div className="flex-row my-auto text-white overflow-hidden">
           <h1 className="display exception mb-8">
-            Welcome to our<br/>
+            Welcome to our<br />
             Belated wedding:
             <br />
             Sat May 17, 2025, Bronx zoo  <span className="cursor_horizontal" />
@@ -35,16 +37,42 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mobile_only relative w-full justify-self-center h-80 aspect-auto md:mt-0">
-        <Image src={"/images/birds.svg"}
-          loading="lazy"
-          alt="hero image"
-          className="no-download"
-          fill={true} />
+
+      <div className="flex flex-col md:flex-row w-full md:w-3/4 p-6">
+        <div className="relative w-full aspect-auto mb-8 md:mb-0">
+          <Image src={"/images/birds.svg"}
+            loading="lazy"
+            alt="hero image"
+            className="no-download"
+            width={1000}
+            height={1000} />
+        </div>
+        <div className="w-full text-white grid grid-row">
+          <h2 className="title mb-8">Schedule</h2>
+          <p>6:30 PM – 7:30 PM | Cocktail hour</p>
+          <p >Madagascar & sea lion pool</p>
+          <br />
+          <p>7:30 PM – 11:30 PM | Reception</p>
+          <p >Schiff Family Great Hall</p>
+          <br />
+          <div className="flex flex-row w-full">
+            <Link href="/venue" className="mr-6">
+              <div className="text-center button mb-8 secondary">
+                About venue
+              </div>
+            </Link>
+            <Link href="/agenda">
+              <div className="text-center button mb-8 secondary">
+                Full agenda
+              </div>
+            </Link>
+          </div>
+
+        </div>
 
       </div>
 
-      <div className="bg-black p-6 md:p-16 w-full md:my-40 md:w-3/4 max-w-screen-lg golden_shadow text-white">
+      <div className="bg-black p-6 md:p-16 w-full md:my-28 md:w-3/4 max-w-screen-lg golden_shadow text-white">
         <h2 className="title mb-8">Our journey</h2>
         <div className="flex mb-4">
           <code>[journey@isabellandaniel ~] $ dmesg | grep “relationship milestones”</code>
@@ -142,7 +170,7 @@ const About = () => {
 
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">18</code>
-          <code className="col-span-2"> {dateString.split('/').reverse().join('-')} </code>
+          <code className="col-span-2"> {dateString.split("/")[2] + "-" + dateString.split("/")[0] + "-" + dateString.split("/")[1]} </code>
           <code className="col-span-9"> Voila! Here we go.</code>
         </div>
         <div className="flex mb-4">
@@ -150,8 +178,56 @@ const About = () => {
         </div>
       </div>
 
+      <div className="flex flex-col w-full md:w-3/4 p-6 text-white">
+        <h2 className="title">Wedding Q&A</h2>
+        <br />
+        <p>Q: How do I address you two on letters or cards?</p>
+        <p>A: Mrs. Wang and Mr. Ogorchock.</p>
+        <br />
+        <p> Q: Can I bring children to your wedding?</p>
+        <p>A: No. We will have R-rated content in our wedding, so adults (18+) only.</p>
+        <br />
+        <p> Q: What’s the dress code?</p>
+        <p> A: Formal. MAX COLOR!</p>
+        <br />
+        <Link href="/qna" className="md:w-1/3 w-full">
+          <div className="text-center button mb-8 secondary">
+            Read more
+          </div>
+        </Link>
+      </div>
+
+
+      <div className="flex flex-col w-full md:w-3/4 p-6 text-white my-10">
+        <h2 className="title">Our photos</h2>
+        <br />
+        <p>We are shy, so we don't want photos on our landing page. </p>
+        <p>
+          If you insist,
+          please <Link href="/photo" className="underline">click here</Link> to see pictures.</p>
+      </div>
+
+      <div className="flex flex-col w-full md:w-3/4 p-6 text-white md:mb-10">
+        <h2 className="title">Registry</h2>
+        <br />
+        <p>Shamelessly saying, we like gifts, everybody likes gifts. </p>
+        <p> Gifts are always appreciated &#10084; &#10084; &#10084;.</p>
+        <br />
+        <Link href="/registry" className="md:w-1/3 w-full">
+          <div className="text-center button mb-8 secondary">
+            Our wish list
+          </div>
+        </Link>
+      </div>
+
+      <div className="title text-white my-40 p-6"> That said, we are looking forward to seeing you &#128513;.
+        <br /><br/>
+        The end.
+      </div>
+
+      <div className="my-40"></div>
     </div >
   )
 }
 
-export default About;
+export default Home;
