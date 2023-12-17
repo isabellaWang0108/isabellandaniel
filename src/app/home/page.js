@@ -201,7 +201,7 @@ const Home = () => {
       <div className="flex flex-col w-full md:w-3/4 p-6 text-white my-10">
         <h2 className="title">Our photos</h2>
         <br />
-        <p>We are shy, so we don&apos;t want photos on our landing page. </p>
+        <p>We are shy, so we don&apos;t want photos on our home page. </p>
         <p>
           If you insist,
           please <Link href="/photo" className="underline">click here</Link> to see pictures.</p>
