@@ -34,10 +34,12 @@ const QNA = () => {
           <p>Yes! We have an open bar for 5 hours.</p>
           <div className="my-14"></div>
           <div className="title">Where is your ceremony?</div>
-          <p> It took place at City Clerk&apos; office on Oct 26th 2023. You will have to travel back in time. </p>
+          <p> It took place at City Clerk&apos; office on Oct 26th 2023.
+            <br />You will have to travel back in time. </p>
           <div className="my-14"></div>
           <div className="title">Where can I give feedback about this website?</div>
-          <p> You should keep your complaints a secret. This web design is all about someone&apos;s personal opinion. </p>
+          <p> You should keep your complaints a secret.
+            <br />This web design is all about someone&apos;s personal opinion. </p>
         </div>
       </div>
       <div className="my-40"></div>
