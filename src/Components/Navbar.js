@@ -7,8 +7,12 @@ import Image from 'next/image'
 
 
 const navLinks = [
-  { href: '/about', name: 'About Us' },
+  { href: '/about', name: 'Home' },
   { href: '/photos', name: 'Photos' },
+  { href: '/registry', name: 'Registry' },
+  { href: '/qna', name: 'Q&A' },
+  { href: '/venue', name: 'Venue' },
+  { href: '/todo', name: 'To do' },
 ]
 
 
@@ -17,14 +21,14 @@ export default function Navigation() {
   const [navActive, setNavActive] = useState(null);
   return (
     <div className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 z-40 py-3 md:py-2 px-6 flex justify-between`}>
-      <a href="/">
-        <Image src={"/images/logo.svg"}
+      <a href="/" className="pt-3">
+        <Image src={"/images/isabella_n_daniel.svg"}
           loading="lazy"
           alt="logo"
-          height={28}
-          width={28} />
+          height={230}
+          width={230} />
       </a>
-      <div className="text-white mobile_only" >
+      <div className="text-white mobile_only z-50" >
         <button
           onClick={() => setNavActive(!navActive)}
         >
@@ -56,7 +60,7 @@ export default function Navigation() {
         })}
       </div>
 
-      {navActive ? <div className="nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-10">
+      {navActive ? <div className="bg-gradient nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-12">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
