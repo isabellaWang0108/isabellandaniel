@@ -21,7 +21,7 @@ export default function Home() {
           <h1 className="display mb-8">
             Daniel.Ogorchock
             <br />
-            & Isabella.Wang's
+            & Isabella.Wang&apos;s
             <br />
             Wedding Invite <span className="cursor_horizontal" /> </h1>
 
