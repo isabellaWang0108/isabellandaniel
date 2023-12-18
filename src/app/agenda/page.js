@@ -9,7 +9,17 @@ const Agenda = () => {
           <h1 className="display exception mb-8">
             Agenda
           </h1>
-          <p>Full agenda will be released two weeks before the wedding.</p>
+          <p>Full agenda will be released two weeks before the wedding. 
+            <br/>Below is the general timeline. </p>
+          <br />
+          <div className="w-full text-white grid grid-row">
+            <p>6:30 PM – 7:30 PM | Cocktail hour</p>
+            <p >Madagascar & sea lion pool</p>
+            <br />
+            <p>7:30 PM – 11:30 PM | Reception</p>
+            <p >Schiff Family Great Hall</p>
+            <br />
+          </div>
         </div>
       </div>
       <div className="my-80"></div>

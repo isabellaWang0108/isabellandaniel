@@ -16,7 +16,7 @@ const Venue = () => {
           <br />
           <p>The wedding will take place at Bronx zoo. Below is a map of the zoo and where the event will take place.</p>
           <br />
-          <Image src={"/images/zoo_map.png"}
+          <Image src={"/images/zoo_map.svg"}
             loading="lazy"
             alt="hero image"
             width={800}
