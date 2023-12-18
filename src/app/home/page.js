@@ -16,8 +16,8 @@ const Home = () => {
   });
 
   return (
-    <div className="bg-black w-full grid justify-items-center z-10">
-      <div className="md:w-3/4 w-full z-10 grid mt-28 p-6">
+    <div className="bg-black w-full grid justify-items-center z-10 ">
+      <div className="md:w-3/4 w-full z-10 grid mt-28 p-6 max-w-screen-lg">
         <div className="flex-row my-auto text-white overflow-hidden">
           <h1 className="display exception mb-8">
             Welcome to our<br />
@@ -39,7 +39,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row w-full md:w-3/4 p-6">
+      <div className="flex flex-col md:flex-row w-full md:w-3/4 p-6 max-w-screen-lg">
         <div className="relative w-full aspect-auto mb-8 md:mb-0">
           <Image src={"/images/birds.svg"}
             loading="lazy"
@@ -179,7 +179,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white">
+      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white  max-w-screen-lg">
         <h2 className="title">Wedding Q&A</h2>
         <br />
         <p>Q: How do I address you two on letters or cards?</p>
@@ -199,7 +199,7 @@ const Home = () => {
       </div>
 
 
-      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white my-10">
+      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white my-10  max-w-screen-lg">
         <h2 className="title">Our photos</h2>
         <br />
         <p>We are shy, so we don&apos;t want photos on our home page. </p>
@@ -208,10 +208,10 @@ const Home = () => {
           please <Link href="/photo" className="underline">click here</Link> to see pictures.</p>
       </div>
 
-      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white md:mb-10">
+      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white md:mb-10 max-w-screen-lg">
         <h2 className="title">Registry</h2>
         <br />
-        <p>Shamelessly saying, we like cash, everybody likes cash. </p>
+        <p>Shamelessly speaking, we like cash, everybody likes cash. </p>
         <p> We already have a fully furnished apartment, so checks, cash, Venmo are always appreciated &#10084; &#10084; &#10084;.</p>
         <br />
         <Link href="/registry" className="md:w-1/3 w-full">
@@ -222,7 +222,7 @@ const Home = () => {
       </div>
 
 
-      <div className="title text-white my-40 p-6 md:pl-16"> That said, we are looking forward to seeing you &#128513;.
+      <div className="title text-white my-40 p-6 md:pl-16  max-w-screen-lg"> That said, we are looking forward to seeing you &#128513;.
         <br />
         Are you coming?
         <br /><br />
