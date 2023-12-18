@@ -49,7 +49,7 @@ const Home = () => {
             height={1000} />
         </div>
         <div className="w-full text-white grid grid-row">
-          <h2 className="title mb-8">Schedule</h2>
+          <h2 className="title mb-8">Agenda</h2>
           <p>6:30 PM – 7:30 PM | Cocktail hour</p>
           <p >Madagascar & sea lion pool</p>
           <br />

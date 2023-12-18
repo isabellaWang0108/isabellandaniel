@@ -10,7 +10,7 @@ export const metadata = {
   creator: 'Isabella Wang',
   keywords: ['Isabella and Daniel', 'isabellandaniel', 'isabellandaniel.bond'],
   openGraph: {
-    images: '/images/open_graph.jpg',
+    images: 'https://isabellandaniel.bond/images/open_graph.jpg',
   },
 }
 export default function RootLayout({ children }) {
