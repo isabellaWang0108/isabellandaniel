@@ -25,12 +25,13 @@ const Home = () => {
             <br />
             Sat May 17, 2025, Bronx zoo  <span className="cursor_horizontal" />
           </h1>
-          <p>Please RSVP before Jan 17, 2025</p>
+          <p> Please let us know your likelihood to be there!</p>
+          <p> RSVP will open in 2025 for those responded. </p>
           <div className="md:w-1/3 w-full my-6">
 
-            <Link href="...">
+            <Link href="https://forms.gle/vg71BERejVGkKTyq9">
               <div className="text-center button mb-8">
-                RSVP
+                Yes, No, Maybe?
               </div>
             </Link>
 
@@ -210,18 +211,22 @@ const Home = () => {
       <div className="flex flex-col w-full md:w-3/4 p-6 text-white md:mb-10">
         <h2 className="title">Registry</h2>
         <br />
-        <p>Shamelessly saying, we like gifts, everybody likes gifts. </p>
-        <p> Gifts are always appreciated &#10084; &#10084; &#10084;.</p>
+        <p>Shamelessly saying, we like cash, everybody likes cash. </p>
+        <p> We already have a fully furnished apartment, so checks, cash, Venmo are always appreciated &#10084; &#10084; &#10084;.</p>
         <br />
         <Link href="/registry" className="md:w-1/3 w-full">
           <div className="text-center button mb-8 secondary">
-            Our wish list
+            How to send cash
           </div>
         </Link>
       </div>
 
+      <div className="flex flex-col w-full md:w-3/4 text-white md:mb-10">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqYw6yERueyOh5MCgQ52cHtVheq90Pv_f_qlGRNdSJHQsDjg/viewform?embedded=true" width="640" height="1169" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+
       <div className="title text-white my-40 p-6"> That said, we are looking forward to seeing you &#128513;.
-        <br /><br/>
+        <br /><br />
         The end.
       </div>
 
