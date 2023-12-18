@@ -37,7 +37,7 @@ const Venue = () => {
           <ul className="list-disc">
             <li> <p>&#9679; Bx9 or Bx19 buses to 183rd Street and Southern Blvd </p></li>
             <li> <p>&#9679; Train 2 or 5 to West Farms Sq-E Tremont Av</p></li>
-            <li> <p>&#9679; Metro North's Harlem line to Fordham, then take the Bx9 bus eastward to 183rd Street and Southern Blvd.</p></li>
+            <li> <p>&#9679; Metro North&apos;s Harlem line to Fordham, then take the Bx9 bus eastward to 183rd Street and Southern Blvd.</p></li>
           </ul>
           <br />
           <p>Please note, each public transport will end with a short walk to the destination, ranging from 5min - 15min. </p>

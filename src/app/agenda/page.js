@@ -9,7 +9,7 @@ const Agenda = () => {
           <h1 className="display exception mb-8">
             Agenda
           </h1>
-          <p>Full agenda will be released two weeks before the wedding. </p>
+          <p>Full agenda will be released two weeks before the wedding.</p>
         </div>
       </div>
       <div className="my-80"></div>
