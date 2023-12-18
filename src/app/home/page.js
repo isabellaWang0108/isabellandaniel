@@ -211,12 +211,11 @@ const Home = () => {
       <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white md:mb-10 max-w-screen-lg">
         <h2 className="title">Registry</h2>
         <br />
-        <p>Shamelessly speaking, we like cash, everybody likes cash. </p>
-        <p> We already have a fully furnished apartment, so checks, cash, Venmo are always appreciated &#10084; &#10084; &#10084;.</p>
+        <p className="max-w-screen-md">To those who wish to honor us with a gift, we would be incredibly grateful for a contribution towards our future goals and dreams.</p>
         <br />
         <Link href="/registry" className="md:w-1/3 w-full">
           <div className="text-center button mb-8 secondary">
-            How to send cash
+            About our wish
           </div>
         </Link>
       </div>
