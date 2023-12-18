@@ -5,7 +5,7 @@ const Registry = () => {
   return (
     <div className="bg-black w-full grid justify-items-center z-10">
       <div className="md:w-3/4 w-full z-10 grid mt-28 p-6">
-        <div className="flex-row my-auto text-white overflow-hidden">
+        <div className="flex-row my-auto text-white overflow-hidden max-w-screen-lg">
           <h1 className="display exception mb-8">
             Registry
           </h1>

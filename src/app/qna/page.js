@@ -5,13 +5,13 @@ const QNA = () => {
   return (
     <div className="bg-black w-full grid justify-items-center z-10 text-white">
       <div className="md:w-3/4 w-full z-10 grid mt-28 p-6">
-        <div className="flex-row my-auto text-white overflow-hidden">
+        <div className="flex-row my-auto text-white overflow-hidden max-w-screen-lg">
           <h1 className="display exception mbs-10">
             Q&A
           </h1>
           <div className="my-14"></div>
           <div className="title">How do I address you two on letters or cards?</div>
-          <p>Mrs. Wang and Mr. Ogorchock.</p>
+          <p>Isabella Wang and Daniel Ogorchock.</p>
           <div className="my-14"></div>
           <div className="title">Any age limit?</div>
           <p>Adults (18+) only. We have R-rated content in our wedding.</p>

@@ -183,7 +183,7 @@ const Home = () => {
         <h2 className="title">Wedding Q&A</h2>
         <br />
         <p>Q: How do I address you two on letters or cards?</p>
-        <p>A: Mrs. Wang and Mr. Ogorchock.</p>
+        <p>A: Isabella Wang and Daniel Ogorchock.</p>
         <br />
         <p> Q: Can I bring children to your wedding?</p>
         <p>A: No. We will have R-rated content in our wedding, so adults (18+) only.</p>
