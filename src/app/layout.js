@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Isabella_n_daniel',
   description: 'A website about Isabella and Daniel. Link isabellandaniel.bond',
+  creator: 'Isabella Wang',
+  keywords: ['Isabella and Daniel', 'isabellandaniel', 'isabellandaniel.bond'],
+  openGraph: {
+    images: '/open_graph.jpg',
+  },
 }
 export default function RootLayout({ children }) {
   return (
