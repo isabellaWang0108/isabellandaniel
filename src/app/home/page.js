@@ -179,7 +179,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col w-full md:w-3/4 p-6 text-white">
+      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white">
         <h2 className="title">Wedding Q&A</h2>
         <br />
         <p>Q: How do I address you two on letters or cards?</p>
@@ -199,7 +199,7 @@ const Home = () => {
       </div>
 
 
-      <div className="flex flex-col w-full md:w-3/4 p-6 text-white my-10">
+      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white my-10">
         <h2 className="title">Our photos</h2>
         <br />
         <p>We are shy, so we don&apos;t want photos on our home page. </p>
@@ -208,7 +208,7 @@ const Home = () => {
           please <Link href="/photo" className="underline">click here</Link> to see pictures.</p>
       </div>
 
-      <div className="flex flex-col w-full md:w-3/4 p-6 text-white md:mb-10">
+      <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white md:mb-10">
         <h2 className="title">Registry</h2>
         <br />
         <p>Shamelessly saying, we like cash, everybody likes cash. </p>
@@ -221,11 +221,16 @@ const Home = () => {
         </Link>
       </div>
 
-      <div className="flex flex-col w-full md:w-3/4 text-white md:mb-10">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqYw6yERueyOh5MCgQ52cHtVheq90Pv_f_qlGRNdSJHQsDjg/viewform?embedded=true" width="640" height="1169" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
 
-      <div className="title text-white my-40 p-6"> That said, we are looking forward to seeing you &#128513;.
+      <div className="title text-white my-40 p-6 md:pl-16"> That said, we are looking forward to seeing you &#128513;.
+        <br />
+        Are you coming?
+        <br /><br />
+        <Link href="https://forms.gle/vg71BERejVGkKTyq9">
+          <div className="text-center button mb-8">
+            Yes, No, Maybe?
+          </div>
+        </Link>
         <br /><br />
         The end.
       </div>
