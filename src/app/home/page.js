@@ -26,7 +26,7 @@ const Home = () => {
             Sat May 17, 2025, Bronx zoo  <span className="cursor_horizontal" />
           </h1>
           <p> Please let us know your likelihood to be there!</p>
-          <p> RSVP will open in 2025 for those responded. </p>
+          <p> Full RSVP will be sent in 2025 for those who have responded. </p>
           <div className="md:w-1/3 w-full my-6">
 
             <Link href="https://forms.gle/vg71BERejVGkKTyq9">
