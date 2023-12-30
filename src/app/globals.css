@@ -182,7 +182,7 @@ code {
 .secondary {
   font-weight: 500;
   background:transparent;
-  color:#b0c8ae;
+  color:#badab7;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #dfbd69, #26cbb3) 1;
@@ -305,14 +305,16 @@ code {
   }
 
   .landing_title_block {
-    margin-top: 58vh;
+    bottom: 18vh;
+    position:fixed;
   }
 
   .display {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.45rem;
-    line-height: 2.7rem;
+    font-size: 10vw;
+    line-height: 90%;
     letter-spacing: -2px;
+   
   }
   
 }

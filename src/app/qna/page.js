@@ -10,34 +10,34 @@ const QNA = () => {
             Q&A
           </h1>
           <div className="my-14"></div>
-          <div className="title">How do I address you two on letters or cards?</div>
+          <div className="title mb-4">How do I address you two on letters or cards?</div>
           <p>Isabella Wang and Daniel Ogorchock.</p>
           <div className="my-14"></div>
-          <div className="title">Any age limit?</div>
+          <div className="title mb-4">Any age limit?</div>
           <p>Adults (18+) only. We have R-rated content in our wedding.</p>
           <div className="my-14"></div>
-          <div className="title">Can I bring children to you wedding?</div>
+          <div className="title mb-4">Can I bring children to your wedding?</div>
           <p>Unfortunately, no.</p>
 
           <div className="my-14"></div>
-          <div className="title">Dress code?</div>
-          <p>Formal, Colorful.
+          <div className="title mb-4">Dress code?</div>
+          <p>Colorful, formal.
             <br />
             If you want inspirations, check out the <a href="https://pin.it/3BPl46I" className="underline">mood board</a> we prepared for you.</p>
           <div className="my-14"></div>
-          <div className="title">Will the event take place indoors or outdoors?</div>
+          <div className="title mb-4">Will the event take place indoors or outdoors?</div>
           <p>Cocktail hour will take place both indoor and outdoor. See  <Link href="/venue" className="underline">venue</Link> for more info.
             <br />
             Reception will only take place indoors.</p>
           <div className="my-14"></div>
-          <div className="title">Will there be drinks?</div>
+          <div className="title mb-4">Will there be drinks?</div>
           <p>Yes! We have an open bar for 5 hours.</p>
           <div className="my-14"></div>
-          <div className="title">Where is your ceremony?</div>
+          <div className="title mb-4">Where is your ceremony?</div>
           <p> It took place at City Clerk&apos; office on Oct 26th 2023.
             <br />You will have to travel back in time. </p>
           <div className="my-14"></div>
-          <div className="title">Where can I give feedback about this website?</div>
+          <div className="title mb-4">Where can I give feedback about this website?</div>
           <p> You should keep your complaints a secret.
             <br />This web design is all about someone&apos;s personal opinion. </p>
         </div>

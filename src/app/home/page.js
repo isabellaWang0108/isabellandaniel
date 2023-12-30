@@ -55,8 +55,8 @@ const Home = () => {
           <br />
           <p>7:30 PM – 11:30 PM | Reception</p>
           <p >Schiff Family Great Hall</p>
-          <br />
-          <div className="flex flex-row w-full">
+        
+          <div className="flex flex-row w-full mt-4">
             <Link href="/venue" className="mr-6">
               <div className="text-center button mb-8 secondary">
                 About venue
@@ -181,17 +181,17 @@ const Home = () => {
 
       <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white  max-w-screen-lg">
         <h2 className="title">Wedding Q&A</h2>
-        <br />
+        <div className="mt-6"/>
         <p>Q: How do I address you two on letters or cards?</p>
         <p>A: Isabella Wang and Daniel Ogorchock.</p>
-        <br />
+        <div className="mt-6"/>
         <p> Q: Can I bring children to your wedding?</p>
         <p>A: No. We will have R-rated content in our wedding, so adults (18+) only.</p>
-        <br />
+        <div className="mt-6"/>
         <p> Q: What’s the dress code?</p>
-        <p> A: Formal. MAX COLOR!</p>
-        <br />
-        <Link href="/qna" className="md:w-1/3 w-full">
+        <p> A: Colorful, formal. We have an <a href="https://pin.it/3BPl46I" className="underline">example board</a> for you. </p>
+        
+        <Link href="/qna" className="md:w-1/3 w-full mt-6">
           <div className="text-center button mb-8 secondary">
             Read more
           </div>
@@ -201,7 +201,7 @@ const Home = () => {
 
       <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white my-10  max-w-screen-lg">
         <h2 className="title">Our photos</h2>
-        <br />
+         <div className="mt-6"/>
         <p>We are shy, so we don&apos;t want photos on our home page. </p>
         <p>
           If you insist,
@@ -210,10 +210,10 @@ const Home = () => {
 
       <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white md:mb-10 max-w-screen-lg">
         <h2 className="title">Registry</h2>
-        <br />
+         <div className="mt-6"/>
         <p className="max-w-screen-md">To those who wish to honor us with a gift, we would be incredibly grateful for a contribution towards our future goals and dreams.</p>
-        <br />
-        <Link href="/registry" className="md:w-1/3 w-full">
+
+        <Link href="/registry" className="md:w-1/3 w-full mt-6">
           <div className="text-center button mb-8 secondary">
             About our wish
           </div>
