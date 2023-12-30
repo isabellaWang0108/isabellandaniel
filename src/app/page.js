@@ -16,17 +16,17 @@ export default function Home() {
         </div>
       </div>
       <div className="md:w-3/4 w-full h-full fixed z-50 grid justify-items-center">
-        <div
-          className="flex-col absolute md:w-200 my-auto text-white landing_title_block">
-          <h1 className="display mb-8">
+        <div className="flex-col absolute w-full md:w-auto my-auto text-white landing_title_block px-6">
+          <h1 className="display w-fit mb-8 mx-auto">
             Daniel.Ogorchock
-            <div className="my-2"/>
+            <div className="my-2" />
             & Isabella.Wang&apos;s
-            <div className="my-2"/>
-            Wedding Invite <span className="cursor_horizontal" /> </h1>
+            <div className="my-2" />
+            Wedding Invite <span className="cursor_horizontal" />
+          </h1>
 
           <Link href="/home">
-            <div className="w-full text-center button mb-8">
+            <div className=" text-center button mb-8">
               Open your invite
             </div>
           </Link>
