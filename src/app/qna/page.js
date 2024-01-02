@@ -34,7 +34,7 @@ const QNA = () => {
           <p>Yes! We have an open bar for 5 hours.</p>
           <div className="my-14"></div>
           <div className="title mb-4">Where is your ceremony?</div>
-          <p> It took place at City Clerk&apos; office on Oct 26th 2023.
+          <p> It took place on Oct 26th 2023.
             <br />You will have to travel back in time. </p>
           <div className="my-14"></div>
           <div className="title mb-4">Where can I give feedback about this website?</div>
