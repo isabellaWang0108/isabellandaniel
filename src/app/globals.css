@@ -35,7 +35,7 @@ body {
   background: rgb(4 47 46);
 }
 
-.bg-gradient{
+.bg-gradient {
   background: linear-gradient(0deg, #68562f, transparent) #042F2E;
 }
 
@@ -129,7 +129,8 @@ p,
   font-size: 1.2rem;
   line-height: 1.75rem;
 }
-.button{
+
+.button {
   font-size: 1.25rem;
 }
 
@@ -181,8 +182,8 @@ code {
 
 .secondary {
   font-weight: 500;
-  background:transparent;
-  color:#badab7;
+  background: transparent;
+  color: #badab7;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #dfbd69, #26cbb3) 1;
@@ -191,7 +192,7 @@ code {
 .secondary:hover {
   background: transparent;
   transition: border-image 1s;
-  color:#b0c8ae;
+  color: #b0c8ae;
   border-image: linear-gradient(to right, #dfbd69, #926f34) 1
 }
 
@@ -210,7 +211,7 @@ code {
 }
 
 .nav_link_active {
-  background:black;
+  background: black;
   border-bottom: 1px solid;
   cursor: default;
 }
@@ -262,12 +263,15 @@ code {
   0% {
     opacity: 0%;
   }
+
   35% {
     opacity: 100%;
   }
+
   65% {
     opacity: 100%;
   }
+
   100% {
     opacity: 0%;
   }
@@ -284,9 +288,11 @@ code {
 }
 
 @media only screen and (max-width: 768px) {
-  /* .button {
-    background: linear-gradient(90deg, #926f34, #dfbd69);
-  } */
+  code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+  }
 
   .secondary {
     background: transparent;
@@ -302,11 +308,13 @@ code {
 
   .golden_shadow {
     box-shadow: none;
+    background: linear-gradient(0, #9f4c35 1%, #793e40 4%, #804565 20%, #573170, #1e164d, #110a3e 99%);
   }
 
+  /* #042F2E */
   .landing_title_block {
     bottom: 12.5vh;
-    position:fixed;
+    position: fixed;
   }
 
   .display {
@@ -314,7 +322,7 @@ code {
     font-size: 9.4vw;
     line-height: 90%;
     letter-spacing: -2px;
-   
+
   }
-  
+
 }

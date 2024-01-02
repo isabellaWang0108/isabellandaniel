@@ -73,8 +73,8 @@ const Home = () => {
 
       </div>
 
-      <div className="bg-black p-6 md:p-16 w-full md:my-28 md:w-3/4 max-w-screen-lg golden_shadow text-white">
-        <h2 className="title mb-8">Our journey</h2>
+      <div className="bg-black p-6 md:p-16 w-full mb-10 md:my-28 md:w-3/4 max-w-screen-lg min-w-fit golden_shadow text-white">
+        <h2 className="title md:my-4 my-8">Our journey</h2>
         <div className="flex mb-4">
           <code>[journey@isabellandaniel ~] $ dmesg | grep “relationship milestones”</code>
         </div>
@@ -174,7 +174,7 @@ const Home = () => {
           <code className="col-span-2"> {dateString.split("/")[2] + "-" + dateString.split("/")[0] + "-" + dateString.split("/")[1]} </code>
           <code className="col-span-9"> Voila! Here we go.</code>
         </div>
-        <div className="flex mb-4">
+        <div className="flex md:mb-4 mb-10">
           <code>[journey@isabellandaniel ~] $ You can’t really type here_<div className="cursor"></div></code>
         </div>
       </div>
@@ -185,7 +185,7 @@ const Home = () => {
         <p>Q: How do I address you two on letters or cards?</p>
         <p>A: Isabella Wang and Daniel Ogorchock.</p>
         <div className="mt-6"/>
-        <p> Q: Can I bring children to your wedding?</p>
+        <p> Q: Can I bring children?</p>
         <p>A: No. We will have R-rated content in our wedding, so adults (18+) only.</p>
         <div className="mt-6"/>
         <p> Q: What’s the dress code?</p>
