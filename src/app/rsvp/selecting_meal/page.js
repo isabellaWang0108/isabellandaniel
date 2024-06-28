@@ -173,7 +173,7 @@ const ResultsPage = () => {
                   {meal.map((result, index) => (
                     <div className="my-8 " key={index}>
                       <div className="title">
-                        {result.name.split(' ')[0].charAt(0).toUpperCase() + result.name.split(' ')[0].slice(1)}'s choice:
+                        {result.name.split(' ')[0].charAt(0).toUpperCase() + result.name.split(' ')[0].slice(1)}&apos;s choice:
                       </div>
 
                       {errors[index].attending && <FormHelperText error>Please select attendence.</FormHelperText>}

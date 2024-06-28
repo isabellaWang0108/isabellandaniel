@@ -41,7 +41,7 @@ const ConfirmationPage = () => {
                     )}
 
                     <p className="mt-8 mb-2"> If life throws you a surprise.</p>
-                    <p className="mb-2">If it's really, really important and unexpected.</p>
+                    <p className="mb-2">If it&apos;s really, really important and unexpected.</p>
                     <p className="mb-2"> <Link className="underline" href="mailto:xywbella@gmail.com?subject='Wedding RSVP issue'">Contact us</Link> to make changes. </p>
                 </div>
             </div>
