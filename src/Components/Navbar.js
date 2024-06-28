@@ -20,12 +20,14 @@ export default function Navigation() {
   const [navActive, setNavActive] = useState(null);
   return (
     <div className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 z-40 py-3 md:py-2 px-6 flex justify-between`}>
-      <a href="/home" className="pt-3">
+      <a href="/home">
         <Image src={"/images/isabella_n_daniel.svg"}
           loading="lazy"
           alt="logo"
           height={230}
-          width={230} />
+          width={230}
+          className="pt-4"
+           />
       </a>
       <div className="text-white mobile_only z-50" >
         <button
