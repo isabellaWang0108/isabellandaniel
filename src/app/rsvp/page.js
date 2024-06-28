@@ -101,7 +101,7 @@ const Rsvp = () => {
 
 
               <p> Having issues?
-                <Link className="underline" href="mailto:xywbella@gmail.com?subject='Wedding RSVP issue'">Contact us.</Link>
+                <Link className="underline" href="mailto:xywbella@gmail.com?subject='Wedding RSVP issue'"> Contact us.</Link>
               </p>
             </form>
 
