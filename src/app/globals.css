@@ -17,19 +17,21 @@
 }
 
 html {
-  background: #0D0D0D;
-  background-color: #0D0D0D;
+  background: rgb(17, 17, 22);
+  background-color: rgb(17, 17, 22);
   color: white;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #0D0D0D;
+  background: rgb(17, 17, 22);
 }
 
 .bg-black {
-  background: #141414;
+  background: rgb(17, 17, 22);
+  background-color: rgb(17, 17, 22);
 }
+
 
 .bg-teal-950 {
   background: rgb(4 47 46);
@@ -62,7 +64,7 @@ body {
   z-index: 9999;
   position: fixed;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
-  opacity: 0.15;
+  opacity: 0.07;
   pointer-events: none;
   -webkit-animation: noise 1.5s steps(2) infinite;
   animation: noise 1.5s steps(2) infinite;
