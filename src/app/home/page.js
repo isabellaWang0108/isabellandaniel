@@ -131,7 +131,7 @@ const Home = () => {
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">10</code>
           <code className="col-span-2">2021-12-23</code>
-          <code className="col-span-9"> Isabella accidentally called herself Daniel’s girlfriend.</code>
+          <code className="col-span-9"> Isabella accidentally called herself Daniel&apos;s girlfriend.</code>
         </div>
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">11</code>
@@ -146,7 +146,7 @@ const Home = () => {
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">13</code>
           <code className="col-span-2">2022-06-03 </code>
-          <code className="col-span-9">Isabella met Daniel’s entire family. </code>
+          <code className="col-span-9">Isabella met Daniel&apos;s entire family. </code>
         </div>
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">14</code>
@@ -166,16 +166,30 @@ const Home = () => {
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">17</code>
           <code className="col-span-2"> 2023-10-26</code>
-          <code className="col-span-9">Isabella n daniel got legally married. </code>
+          <code className="col-span-9">Isabella n daniel got married. </code>
         </div>
 
         <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
           <code className="desktop_only">18</code>
+          <code className="col-span-2"> 2024-04-19</code>
+          <code className="col-span-9">Daniel hung out with Isabella&apos;s parents without Isabella there. </code>
+        </div>
+
+        <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
+          <code className="desktop_only">19</code>
+          <code className="col-span-2"> 2024-07-14</code>
+          <code className="col-span-9">Daniel met Isabella&apos;s entire family. </code>
+        </div>
+
+        <div className="grid grid-row md:grid-cols-12 md:gap-8 mb-4">
+          <code className="desktop_only">20</code>
           <code className="col-span-2"> {dateString.split("/")[2] + "-" + dateString.split("/")[0] + "-" + dateString.split("/")[1]} </code>
           <code className="col-span-9"> Voila! Here we go.</code>
         </div>
+
+
         <div className="flex md:mb-4 mb-10">
-          <code>[journey@isabellandaniel ~] $ You can’t really type here_<div className="cursor"></div></code>
+          <code>[journey@isabellandaniel ~] $ You can&apos;t really type here_<div className="cursor"></div></code>
         </div>
       </div>
 
