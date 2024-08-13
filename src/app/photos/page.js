@@ -13,6 +13,14 @@ const Photo = () => {
             className="no-download z-10"
             fill={true} />
         </div>
+        <div className="relative w-full h-60 md:h-[32rem] aspect-auto">
+          <Image src={"/images/img_1.png"}
+            loading="lazy"
+            alt="hero image"
+            objectFit="cover"
+            className="no-download z-10"
+            fill={true} />
+        </div>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="relative h-[38rem] aspect-auto">
             <Image src={"/images/img_3.png"}
@@ -67,13 +75,43 @@ const Photo = () => {
               fill={true} />
           </div>
         </div>
-        <div className="relative w-full h-60 md:h-[32rem] aspect-auto">
-          <Image src={"/images/img_1.png"}
-            loading="lazy"
-            alt="hero image"
-            objectFit="cover"
-            className="no-download z-10"
-            fill={true} />
+       
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="relative h-[38rem] aspect-auto">
+            <Image src={"/images/img_9.png"}
+              loading="lazy"
+              alt="hero image"
+              objectFit="cover"
+              className="no-download z-10"
+              fill={true} />
+          </div>
+          <div className="relative md:pt-2 h-[38rem] aspect-auto">
+            <Image src={"/images/img_10.png"}
+              loading="lazy"
+              alt="hero image"
+              objectFit="cover"
+              className="no-download z-10"
+              fill={true} />
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="relative h-[38rem] aspect-auto">
+            <Image src={"/images/img_11.png"}
+              loading="lazy"
+              alt="hero image"
+              objectFit="cover"
+              className="no-download z-10"
+              fill={true} />
+          </div>
+          <div className="relative md:pt-2 h-[38rem] aspect-auto">
+            <Image src={"/images/img_12.png"}
+              loading="lazy"
+              alt="hero image"
+              objectFit="cover"
+              className="no-download z-10"
+              fill={true} />
+          </div>
         </div>
 
       </div>

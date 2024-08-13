@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
 
           <Link href="/home">
-            <div className="text-center button mb-8">
+            <div className="text-center button">
               Open your invite
             </div>
           </Link>
