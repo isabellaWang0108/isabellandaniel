@@ -219,7 +219,7 @@ const Home = () => {
         <p>We are shy, so we don&apos;t want photos on our home page. </p>
         <p>
           If you insist,
-          please <Link href="/photo" className="underline">click here</Link> to see pictures.</p>
+          please <Link href="/photos" className="underline">click here</Link> to see pictures.</p>
       </div>
 
       <div className="flex flex-col w-full md:w-3/4 p-6 md:pl-16 text-white md:mb-10 max-w-screen-lg">
