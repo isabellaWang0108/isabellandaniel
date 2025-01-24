@@ -1,11 +1,13 @@
 // 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
+import Navbar from '../Components/Navbar.js'
 export default function Home() {
   return (
     <>
-      <div className="flex fixed top-0 left-0 w-screen h-screen z-50 grain">
-        <div style={{backgroundColor:'rgb(17, 17, 22)'}} className="bg-black relative md:w-full w-0 h-screen"> </div>
+      <Navbar />
+      <div className="flex fixed top-0 left-0 w-screen h-screen z-40 grain">
+        <div style={{ backgroundColor: 'rgb(17, 17, 22)' }} className="bg-black relative md:w-full w-0 h-screen"> </div>
         <div className="relative md:w-7/12 w-full h-screen aspect-auto">
           <Image src={"/images/hero.png"}
             loading="lazy"
