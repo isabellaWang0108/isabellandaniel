@@ -19,10 +19,10 @@ export default function Home() {
       </div>
       <div className="md:w-7/12 w-full h-full fixed z-50 grid justify-items-center">
         <div className="flex-col absolute w-full md:w-auto my-auto text-white landing_title_block px-6">
-          <h1 className="display w-fit mb-8 mx-auto">
+          <h1 className="landing_title w-fit mb-8 mx-auto">
             Daniel.Ogorchock
             <div className="my-2" />
-            & Isabella.Wang&apos;s
+            n Isabella.Wang&apos;s
             <div className="my-2" />
             Wedding Invite <span className="cursor_horizontal" />
           </h1>
