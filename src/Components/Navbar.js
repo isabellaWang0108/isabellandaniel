@@ -31,7 +31,7 @@ export default function Navigation() {
       <div className="text-white mobile_only z_50" >
         <button
           onClick={() => setNavActive(!navActive)}
-          className='z-50'
+          className='z_50'
         >
           {navActive ?
             <Image src={"/images/cross.svg"}
@@ -61,7 +61,7 @@ export default function Navigation() {
         })}
       </div>
 
-      {navActive ? <div className="bg-gradient nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-12 z-50">
+      {navActive ? <div className="bg-gradient nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-12 z_50">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
