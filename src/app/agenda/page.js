@@ -17,7 +17,7 @@ const Agenda = () => {
             <p >Please see  <Link href="/venue" className="underline">venue page</Link> for more details.</p>
             <br />
             <p>6:30 PM – 7:30 PM | Cocktail hour</p>
-            <p >You will enjoy cocktail and passed hors d'oeuvres at Madagascar or sea lion pool.</p>
+            <p >You will enjoy cocktail and passed hors d&apos;oeuvres at Madagascar or sea lion pool.</p>
             <br />
             <p>7:30 PM – 7:45 PM | Getting seated at reception</p>
             <p >You will find your seat at Schiff Family Great Hall</p>
