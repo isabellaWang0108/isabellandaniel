@@ -19,7 +19,7 @@ export default function Navigation() {
   const pathname = usePathname()
   const [navActive, setNavActive] = useState(null);
   return (
-    <div style={{ justifyContent: "space-between" }} className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 z-40 py-4 md:py-2 px-6 flex justify-between`}>
+    <div style={{ justifyContent: "space-between", zIndex:40 }} className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 py-4 md:py-2 px-6 flex justify-between`}>
       <a href="/home" style={{ alignContent: 'center', zIndex:40 }}>
         <Image src={"/images/isabella_n_daniel.svg"}
           loading="lazy"
