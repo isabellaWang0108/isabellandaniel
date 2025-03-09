@@ -28,10 +28,9 @@ export default function Navigation() {
           width={230}
         />
       </a>
-      <div className="text-white mobile_only z-40" >
+      <div className="text-white mobile_only" style={{zIndex:40}} >
         <button
           onClick={() => setNavActive(!navActive)}
-          className='z-40'
         >
           {navActive ?
             <Image src={"/images/cross.svg"}
