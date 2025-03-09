@@ -57,6 +57,15 @@ const Photo = () => {
               fill={true} />
           </div>
         </div>
+
+        <div className="relative w-full h-60 md:h-[32rem] aspect-auto">
+          <Image src={"/images/img_13.jpg"}
+            loading="lazy"
+            alt="hero image"
+            objectFit="cover"
+            className="no-download z-10"
+            fill={true} />
+        </div>
         
        
         <div className="grid md:grid-cols-2 gap-4">
