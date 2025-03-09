@@ -11,24 +11,24 @@ const Agenda = () => {
           </h1>
 
           <div className="w-full text-white grid grid-row">
-          <p>6:15 PM – 6:30 PM | Arrival</p>
-            <p >Please see  <Link href="/venue" className="underline">venue page</Link> for more details.</p>
-            <br />
-            <p>6:30 PM – 7:30 PM | Cocktail hour</p>
-            <p >You will enjoy cocktail and passed hors d&apos;oeuvres at Madagascar or sea lion pool.</p>
-            <br />
-            <p>7:30 PM – 7:45 PM | Getting seated at reception</p>
-            <p >You will find your seat at Schiff Family Great Hall</p>
-            <br />
-            <p>7:45 PM – 11:15 PM | Reception</p>
-            <p >There will be plated meals, open bar, and reception activities. </p>
-            <br />
-            <p>11:15 PM | Last call</p>
+            <p className="mt-2">6:15 PM – 6:30 PM | Arrival</p>
+            <p >Please see the <Link href="/venue" className="underline">venue page</Link> for more details.</p>
+    
+            <p className="mt-6">6:30 PM – 7:30 PM | Cocktail hour</p>
+            <p  >You will enjoy cocktails and passed hors d&apos;oeuvres at the Madagascar exhibit or sea lion pool.</p>
+    
+            <p className="mt-6">7:30 PM – 7:45 PM | Getting seated at reception</p>
+            <p >You will find your seat at the Schiff Family Great Hall.</p>
+    
+            <p className="mt-6">7:45 PM – 11:15 PM | Reception</p>
+            <p >There will be plated meals, an open bar, and reception activities. </p>
+    
+            <p className="mt-6">11:15 PM | Last call</p>
             <p >You will grab your last drink. </p>
-            <br />
-            <p>11:30 PM | The end</p>
+    
+            <p className="mt-6">11:30 PM | The end</p>
             <p >The party will end on time.  </p>
-            <br />
+    
           </div>
         </div>
       </div>

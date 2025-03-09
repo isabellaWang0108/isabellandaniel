@@ -25,8 +25,7 @@ const Home = () => {
             <br />
             Sat May 17, 2025, Bronx zoo  <span className="cursor_horizontal" />
           </h1>
-          <p> Please let us know your likelihood to be there!</p>
-          <p> Full RSVP will be sent in 2025 for those who have responded. </p>
+          <p> Please RSVP before April 17. 2025.  </p>
           <div className="md:w-1/3 w-full my-6">
 
             <Link href="https://isabellandanielwed.rsvpify.com">
