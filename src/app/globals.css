@@ -50,6 +50,9 @@ body {
   padding: 5rem;
 }
 
+.z-50{
+  z-index: 50;
+}
 
 .grain {
   transform: translateZ(0);
