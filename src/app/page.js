@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex fixed top-0 left-0 w-screen h-screen z-40 grain">
+      <div className="flex fixed top-0 left-0 w-screen h-screen z-30 grain">
         <div style={{ backgroundColor: 'rgb(17, 17, 22)' }} className="bg-black relative md:w-full w-0 h-screen"> </div>
         <div className="relative md:w-7/12 w-full h-screen aspect-auto">
           <Image src={"/images/hero.png"}
@@ -17,7 +17,7 @@ export default function Home() {
             fill={true} />
         </div>
       </div>
-      <div className="md:w-7/12 w-full h-full fixed z-50 grid justify-items-center">
+      <div className="md:w-7/12 w-full h-full fixed z-30 grid justify-items-center">
         <div className="flex-col absolute w-full md:w-auto my-auto text-white landing_title_block px-6">
           <h1 className="landing_title w-fit mb-8 mx-auto">
             Daniel.Ogorchock

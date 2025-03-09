@@ -29,9 +29,9 @@ const Home = () => {
           <p> Full RSVP will be sent in 2025 for those who have responded. </p>
           <div className="md:w-1/3 w-full my-6">
 
-            <Link href="https://forms.gle/vg71BERejVGkKTyq9">
+            <Link href="https://isabellandanielwed.rsvpify.com">
               <div className="text-center button mb-8">
-                Yes, No, Maybe?
+               RSVP
               </div>
             </Link>
 
@@ -239,9 +239,9 @@ const Home = () => {
         <br />
         Are you coming?
         <br /><br />
-        <Link href="https://forms.gle/vg71BERejVGkKTyq9">
+        <Link href="https://isabellandanielwed.rsvpify.com">
           <div className="text-center button mb-8">
-            Yes, No, Maybe?
+            RSVP
           </div>
         </Link>
         <br /><br />

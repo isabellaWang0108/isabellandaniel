@@ -13,11 +13,23 @@ const Agenda = () => {
             <br/>Below is the general timeline. </p>
           <br />
           <div className="w-full text-white grid grid-row">
-            <p>6:30 PM – 7:30 PM | Cocktail hour</p>
-            <p >Madagascar & sea lion pool</p>
+          <p>6:15 PM – 6:30 PM | Arrival</p>
+            <p >Please see  <Link href="/venue" className="underline">venue page</Link> for more details.</p>
             <br />
-            <p>7:30 PM – 11:30 PM | Reception</p>
-            <p >Schiff Family Great Hall</p>
+            <p>6:30 PM – 7:30 PM | Cocktail hour</p>
+            <p >You will enjoy cocktail and passed hors d'oeuvres at Madagascar or sea lion pool.</p>
+            <br />
+            <p>7:30 PM – 7:45 PM | Getting seated at reception</p>
+            <p >You will find your seat at Schiff Family Great Hall</p>
+            <br />
+            <p>7:45 PM – 11:15 PM | Reception</p>
+            <p >There will be meals, open bar and reception activities. </p>
+            <br />
+            <p>11:15 PM | Last call</p>
+            <p >You will grab your last drink. </p>
+            <br />
+            <p>11:30 PM | The end</p>
+            <p >The party will end on time.  </p>
             <br />
           </div>
         </div>
