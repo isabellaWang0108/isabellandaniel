@@ -23,7 +23,7 @@ const Agenda = () => {
             <p >You will find your seat at Schiff Family Great Hall</p>
             <br />
             <p>7:45 PM – 11:15 PM | Reception</p>
-            <p >There will be meals, open bar and reception activities. </p>
+            <p >There will be plated meals, open bar, and reception activities. </p>
             <br />
             <p>11:15 PM | Last call</p>
             <p >You will grab your last drink. </p>
