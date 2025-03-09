@@ -20,7 +20,7 @@ export default function Navigation() {
   const [navActive, setNavActive] = useState(null);
   return (
     <div style={{ justifyContent: "space-between" }} className={`${navActive ? "bg-teal-950" : "bg-black"} w-full fixed top-0 left-0 z-40 py-4 md:py-2 px-6 flex justify-between`}>
-      <a href="/home" style={{ alignContent: 'center', zIndex:50 }}>
+      <a href="/home" style={{ alignContent: 'center', zIndex:60 }}>
         <Image src={"/images/isabella_n_daniel.svg"}
           loading="lazy"
           alt="logo"
@@ -28,10 +28,10 @@ export default function Navigation() {
           width={230}
         />
       </a>
-      <div className="text-white mobile_only z_50" >
+      <div className="text-white mobile_only z-40" >
         <button
           onClick={() => setNavActive(!navActive)}
-          className='z_50'
+          className='z-60'
         >
           {navActive ?
             <Image src={"/images/cross.svg"}
@@ -46,7 +46,7 @@ export default function Navigation() {
               width={28} />}
         </button>
       </div>
-      <div className="text-white flex desktop_only">
+      <div className="text-white flex desktop_only z-50">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
@@ -61,12 +61,12 @@ export default function Navigation() {
         })}
       </div>
 
-      {navActive ? <div className="bg-gradient nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-12 z_50">
+      {navActive ? <div className="bg-gradient nav_anime text-white flex flex-col mobile_only fixed left-0 top-0 w-full p-20 mt-12 z-50">
         {navLinks.map((link) => {
           const isActive = pathname === link.href
           return (
             <Link
-              className={`${isActive ? "nav_link_active" : "nav_link"} text-center`}
+              className={`${isActive ? "nav_link_active" : "nav_link"} text-center z-60`}
               href={link.href}
               key={link.name}
               onClick={() => setNavActive(!navActive)}
