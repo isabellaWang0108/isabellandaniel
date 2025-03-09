@@ -50,13 +50,6 @@ body {
   padding: 5rem;
 }
 
-.z-50{
-  z-index: 50;
-}
-.z-60{
-  z-index: 60;
-}
-
 .grain {
   transform: translateZ(0);
 }
@@ -67,7 +60,6 @@ body {
   left: -10rem;
   width: calc(100% + 20rem);
   height: calc(100% + 20rem);
-  z-index: 9999;
   position: fixed;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
   opacity: 0.07;

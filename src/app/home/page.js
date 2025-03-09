@@ -16,7 +16,7 @@ const Home = () => {
   });
 
   return (
-    <div className="bg-black w-full grid justify-items-center z-10 ">
+    <div className="bg-black w-full grid justify-items-center z-0">
       <div className="md:w-3/4 w-full z-10 grid mt-28 p-6 max-w-screen-lg">
         <div className="flex-row my-auto text-white overflow-hidden">
           <h1 className="display exception mb-8">
@@ -55,7 +55,7 @@ const Home = () => {
           <p>7:30 PM – 11:30 PM | Reception</p>
           <p >Schiff Family Great Hall</p>
         
-          <div className="flex flex-row w-full mt-4">
+          <div className="flex flex-row w-full mt-4 z-10">
             <Link href="/venue" className="mr-6">
               <div className="text-center button mb-8 secondary">
                 About venue
