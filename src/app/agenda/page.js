@@ -13,22 +13,28 @@ const Agenda = () => {
           <div className="w-full text-white grid grid-row">
             <p className="mt-2">6:15 PM – 6:30 PM | Arrival</p>
             <p >Please see the <Link href="/venue" className="underline">venue page</Link> for more details.</p>
-    
+
             <p className="mt-6">6:30 PM – 7:30 PM | Cocktail hour</p>
             <p  >You will enjoy cocktails and passed hors d&apos;oeuvres at the Madagascar exhibit or sea lion pool.</p>
-    
+
             <p className="mt-6">7:30 PM – 7:45 PM | Getting seated at reception</p>
             <p >You will find your seat at the Schiff Family Great Hall.</p>
-    
-            <p className="mt-6">7:45 PM – 11:15 PM | Reception</p>
-            <p >There will be plated meals, an open bar, and reception activities. </p>
-    
+
+            <p className="mt-6">8:35 PM | Toasts</p>
+            <p>You will listen to some speeches.</p>
+
+            <p className="mt-6">9:15 PM | Cake cutting</p>
+            <p>You will get to have dessert.</p>
+
+            <p className="mt-6">10:00PM | Party time</p>
+            <p>You can dance, get drunk, and have fun! </p>
+
             <p className="mt-6">11:15 PM | Last call</p>
-            <p >You will grab your last drink. </p>
-    
+            <p >You can grab your last drink. </p>
+
             <p className="mt-6">11:30 PM | The end</p>
             <p >The party will end on time.  </p>
-    
+
           </div>
         </div>
       </div>
